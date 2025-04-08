@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background: linear-gradient(to bottom left,rgb(79, 79, 238), rgb(255, 143, 162) 250px);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(255, 143, 162);
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Sedgwick Ave", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(rgb(255, 143, 162) 20px, rgb(79, 79, 238));
+    
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #002244;
+}
+
+.enlaces {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3  {
+    font-family: "Sedgwick Ave", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to bottom left,rgb(79, 79, 238), rgb(255, 143, 162));
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #3b3b3b;
+}
+
+button:hover {
+    background: linear-gradient(to bottom left, rgb(255, 143, 162), rgb(79, 79, 238));
+}
+
+button:active {
+  background: linear-gradient(to bottom left, rgb(255, 0, 43), rgb(0, 0, 255));
+  box-shadow: 0 6px rgb(255, 143, 162);
+  transform: translateY(4px);
+}
+
+.imagenes {
+    max-width: 50%;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: -30px;
+    float: left;
+  clip-path: circle(40%);
+  shape-outside: circle(45%);
+}
